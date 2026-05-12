@@ -53,7 +53,7 @@ switch(menu){
 }
 
 function ex1(){
-  const nomes = ["Luiz", "Hugo", "Zinho", "Jair", "Cleito"];
+  const nomes = ["Ygor", "Nicolas", "Ryan", "Ruan", "Miguel"];
   for (let nome of nomes){
         console.log(`nome: ${nome}`);
     }
@@ -74,8 +74,8 @@ console.log("Total:", soma);
 
 function ex3(){
      const pessoa = {
-        nome: "Rafael", 
-        idade: 14,
+        nome: "Matheus", 
+        idade: 17,
         cidade: "Sorocaba"
     };
 
@@ -88,10 +88,10 @@ function ex3(){
 
 function ex4(){
     const pessoa = {
-  nome: "Metheus",
-  idade: 35,
+  nome: "Miguel",
+  idade: 17,
   cidade: "Sorocaba",
-  profissao: "Polícia"
+  profissao: "Garçom"
 };
 
 let contador = 0;
@@ -107,7 +107,7 @@ console.log("Total de propriedades:", contador);
 //Médios
 
 function ex5(){
-  const nomes = ["Dani", "Lu", "Le", "Mel"];
+  const nomes = ["Rafael", "Felipe", "Guilherme", "Gabriel"];
 let resultado = "";
 
 for (const nome of nomes) {
@@ -124,7 +124,7 @@ console.log(resultado);
 
 
 function ex6(){
-     const valores = [10, "Teste", true, null, undefined, { nome: "Isinha" }, [1, 2, 3]];
+     const valores = [10, "Teste", true, null, undefined, { nome: "Murilo" }, [1, 2, 3]];
 
 for (const valor of valores) {
   console.log(valor, "->", typeof valor);
@@ -133,9 +133,9 @@ for (const valor of valores) {
 
 function ex7(){
 const pessoas = {
-  le: 20,
-  Lu: 16,
-  La: 12
+  Guilherme: 20,
+  Rafael: 16,
+  Gabriel: 12
 };
 
 for (let nome in pessoas) {
@@ -148,7 +148,7 @@ console.log(pessoas);
 
 function ex8(){
     const objeto = {
-  nome: "Durval",
+  nome: "Gustavo",
   idade: 17,
   cidade: "Sorocaba"
 };
